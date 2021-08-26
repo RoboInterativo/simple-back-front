@@ -22,8 +22,8 @@ def index():
 
 @app.route('/api')
 def api():
-    j={"students":  [ {'name':'Alex',    'age': 40 },
-    {'name':'Tom',    'age': 21 }
+    j={"students":  [ {'id':1, 'name':'Alex',    'age': 40 },
+    {'id': 2, 'name':'Tom',    'age': 21 }
      ]}
 
 
